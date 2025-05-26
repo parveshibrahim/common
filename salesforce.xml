@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://innovation-momentum-5083.my.salesforce.com" validUntil="2035-05-24T13:09:56.120Z" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIErDCCA5SgAwIBAgIOAZcMtr2/AAAAAG2gRSswDQYJKoZIhvcNAQELBQAwgZAx
+KDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzI2TWF5MjAyNV8xMzA5NTIxGDAWBgNV
+BAsMDzAwRGROMDAwMDBnRVllTDEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAU
+BgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0Ew
+HhcNMjUwNTI2MTMwOTUyWhcNMjYwNTI2MTIwMDAwWjCBkDEoMCYGA1UEAwwfU2Vs
+ZlNpZ25lZENlcnRfMjZNYXkyMDI1XzEzMDk1MjEYMBYGA1UECwwPMDBEZE4wMDAw
+MGdFWWVMMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZy
+YW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAPeAatjUlKvUWSprMv88H8o3Xxez5irqqVZysOUE
+3yYDCZXjiDLglNrP4LFOcQ4JZ3x1btg5+MATqWFCN5to/dPnjy04aHbl0flVrj+x
+bijTnqfHaIzjtSm3Rik8s27ie+00Y56S8sIT9STt1yd3TmtxoL+k7Gpv7bxb2Mnh
+5fCgRbLWhY/m8167UGq4/2johlwlMhQ7t7HDo7KW1HLRQsWV6R5qz3isgp8GLk1t
+IvEVscNy87THc18/QlfyRno5TMstbL8m2y4ojCgJPCHKwRtvTMMJ7ZG1LmcseiND
+2w1AWLnT/YpybSHa+vObw9dNiQSPoOPyc/U9I4vrk2DYUf0CAwEAAaOCAQAwgf0w
+HQYDVR0OBBYEFF/2qlpYYNpshGNchyheN9U1htWNMA8GA1UdEwEB/wQFMAMBAf8w
+gcoGA1UdIwSBwjCBv4AUX/aqWlhg2myEY1yHKF431TWG1Y2hgZakgZMwgZAxKDAm
+BgNVBAMMH1NlbGZTaWduZWRDZXJ0XzI2TWF5MjAyNV8xMzA5NTIxGDAWBgNVBAsM
+DzAwRGROMDAwMDBnRVllTDEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNV
+BAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgGX
+DLa9vwAAAABtoEUrMA0GCSqGSIb3DQEBCwUAA4IBAQAr96MrAy5A0t0R4HYaDVNm
+0KJYELibRrJWhbQhCa8FovkWtcPR5hJRFHHzRvEi2935htupZJTHgPtmBf0xze6M
+rd6q1LjLcakeM+Q7HB0LDqpbeikLmKv3YlGLfey1TktaX3VOrr3jdQdEBnOXxTQN
+G5d6TbdsxulGwQD7EvAgd3PW4O9uv5T6vngec1K2RAtj3+cgCXW4LETRrTZGaeDN
+9/c2DdMOaMMsYMyx5+QbHf5MgnUry1MDHqiVtPbLT/cuY/serAOxBJVjuqIwUDxy
+GGzR78lfRu6DxUS2LESW97tZ14ve2/eZ/WVNyFK134yYJbCaQueFUf4/EmjyuUVz</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://innovation-momentum-5083.my.salesforce.com/services/auth/sp/saml2/logout"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://innovation-momentum-5083.my.salesforce.com/services/auth/sp/saml2/logout"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://innovation-momentum-5083.my.site.com/mystorevforcesite/services/auth/sp/saml2/logout"/>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://innovation-momentum-5083.my.site.com/mystorevforcesite/services/auth/sp/saml2/logout"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://innovation-momentum-5083.my.salesforce.com" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://innovation-momentum-5083.my.site.com/mystorevforcesite/login" index="1"/>
+   </md:SPSSODescriptor>
+</md:EntityDescriptor>
